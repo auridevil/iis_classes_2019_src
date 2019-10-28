@@ -11,11 +11,11 @@ footer: "CC aureliano.bergese@gmail.com 2019"
 
 ![bg](./assets/asoggetti-cfKC0UOZHJo-unsplash.jpg)
 
-# <!--fit--> Gestione progetti 2019
+# <!--fit--> Corso IIS Vallauri - gestione progetti 2019
 
-Aggiornamento IIS Vallauri
 
 https://github.com/auridevil/iis_classes_2019_src
+https://gest-progetti-iis.netlify.com/
 
 <style scoped>a { color: #eee; }</style>
 
@@ -54,14 +54,38 @@ Professional Scrum Product Owner
 - production: per gli utenti finali
 ---
 ### <!--fit--> Versionamento
+---
+# Un VCS traccia la storia dei cambiamenti di persone e team che lavorano insieme ad un progetto.
+Un DVCS lo fa in maniera distribuita.
 
 ---
+# Perchè? per rispondere alle domande:
+- quali modifiche sono state fatte?
+- chi ha fatto le modifiche?
+- quando sono state fatte le modifiche?
+- perchè sono state richieste le modifiche?
 ---
+
+![Marp bg 90%](./assets/vcschart.png)
+
 ---
+### <!--fit--> GIT
 ---
+(Distributed) Version Control System
+(git = idiota) 
+
+Linus Torvalds 2005
+Junio Hamano v1 (attualmente mantainer)
+
 ---
+# Repository
+Un repository (repo) o git-project è l'insieme di file e folder associati ad un progetto. Comprende anche lo storico delle modifiche.
+
 ---
----
+# Crea nuovo (locale)
+```bash
+git init
+```
 ---
 ---
 
