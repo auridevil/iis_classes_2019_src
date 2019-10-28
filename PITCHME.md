@@ -87,6 +87,7 @@ Un repository (repo) o git-project è l'insieme di file e folder associati ad un
 git init
 ```
 ---
+only in master
 ---
 
 ![Marp bg 90%](https://raw.githubusercontent.com/marp-team/marp/master/marp.png)
