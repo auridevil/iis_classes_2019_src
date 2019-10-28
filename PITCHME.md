@@ -1,8 +1,9 @@
 ---
-marp: true
+marp: false
 title: Marp CLI example
 description: Hosting Marp slide deck on the web
-theme: uncover
+theme: gaia
+class: invert
 paginate: true
 _paginate: false
 ---
