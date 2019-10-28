@@ -2,7 +2,7 @@
 
 ## See published slide
 
-- <img src="https://www.netlify.com/img/press/logos/logomark.svg" width="24" height="24" valign="bottom" /> **[Netlify]**: https://yhatt-marp-cli-example.netlify.com/
+- <img src="https://www.netlify.com/img/press/logos/logomark.svg" width="24" height="24" valign="bottom" /> **[Netlify]**: https://gest-progetti-iis.netlify.com/
 
 
 ## Usage

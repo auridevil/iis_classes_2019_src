@@ -77,6 +77,8 @@ Un DVCS lo fa in maniera distribuita.
 Linus Torvalds 2005
 Junio Hamano v1 (attualmente mantainer)
 
+Basato su **checksum** di file e folder (per la velocità)
+
 ---
 # Repository
 Un repository (repo) o git-project è l'insieme di file e folder associati ad un progetto. Comprende anche lo storico delle modifiche.
@@ -87,8 +89,24 @@ Un repository (repo) o git-project è l'insieme di file e folder associati ad un
 git init
 ```
 ---
+# Clona esistente (remoto)
+```bash
+git clone https://github.com/auridevil/iis_classes_2019_src.git
+cd iis_classes_2019
+```
 ---
+# Branching
 
+il branch principale è **master**
+
+
+---
+---
+---
+---
+---
+---
+---
 ![Marp bg 90%](https://raw.githubusercontent.com/marp-team/marp/master/marp.png)
 
 ---
