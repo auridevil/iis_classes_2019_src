@@ -1,26 +1,71 @@
 ---
-marp: false
-title: Marp CLI example
-description: Hosting Marp slide deck on the web
+marp: true
+title: Corso Gestione Progetti 2019
+description: Corso di aggiornamento gestione progetti per i docenti del Istituto Tecnico Vallauri
 theme: gaia
 class: invert
 paginate: true
 _paginate: false
+footer: "CC aureliano.bergese@gmail.com 2019"
 ---
 
-![bg](./assets/gradient.jpg)
+![bg](./assets/asoggetti-cfKC0UOZHJo-unsplash.jpg)
 
-# <!--fit--> Marp CLI example
+# <!--fit--> Gestione progetti 2019
 
-Hosting Marp slide deck on the web
+Aggiornamento IIS Vallauri
 
-https://github.com/yhatt/marp-cli-example
+https://github.com/auridevil/iis_classes_2019_src
 
 <style scoped>a { color: #eee; }</style>
 
 ---
+## Aureliano Bergese (fullstack@mondora)
+![width:200px](./assets/auri.png)
+Explorer
+Functional Programming enthusiast
+Father of 2
+Professional Scrum Product Owner
 
-![Marp bg 60%](https://raw.githubusercontent.com/marp-team/marp/master/marp.png)
+---
+### <!--fit--> Software nel 2019
+---
+# SUBJECTS (cosa)
+- progetto: ciò che dobbiamo realizzare
+- prodotto: uno o più progetti, volti a fornire un servizio unificato
+- valore: benefit fornito dal prodotto
+- revenue: guadagno fornito dal prodotto al proprietario
+---
+# STAKEHOLDERS (chi)
+
+
+- team: chi lavora al progetto
+- utenti finali: chi usa il prodotto
+- clienti: chi commissiona il progetto
+- funder: chi mette i soldi per il progetto
+---
+
+# ENVIRONMENTS (dove)
+- dev: per i programmatori del team
+- test: per i tester del team
+- integration: per le altre entità che concorrono al progetto 
+- demo: per mostrare le funzionalità al cliente / funder
+- preproduction: per i tester del prodotto
+- production: per gli utenti finali
+---
+### <!--fit--> Versionamento
+
+---
+---
+---
+---
+---
+---
+---
+---
+---
+
+![Marp bg 90%](https://raw.githubusercontent.com/marp-team/marp/master/marp.png)
 
 ---
 
