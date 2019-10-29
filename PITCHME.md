@@ -380,6 +380,28 @@ Per le operazioni più chirurgiche si consiglia [learn git branching](https://le
 # Pull Request
 E' un processo di *code review* delle modifiche create in un *feature branch* (branch a cui è associata una funzionalità di progetto), prima di farlo convergere (*merge*) su un branch principale.
 Le pull request sono il cuore della **collaborazione**.
+```bash
+.... (from `git push origin branch-to-PR` output)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+remote: 
+remote: Create a pull request for 'branch-to-PR' on GitHub by visiting:
+remote:      https://github.com/auridevil/iis_classes_2019_src/pull/new/branch-to-PR
+remote: 
+To https://github.com/auridevil/iis_classes_2019_src.git
+ * [new branch]      branch-to-PR -> branch-to-PR
+
+```
+---
+![Marp bg 68%](./assets/pr1.png)
+
+---
+![Marp bg 100%](./assets/pr2.png)
+
+---
+E' possibile fare il merge se
+- non ci sono conflitti
+- c'è un numero sufficiente di *approve* (da stabilire con il team)
+  
 ---
 # Git Flow
 ---
