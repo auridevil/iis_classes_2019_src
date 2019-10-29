@@ -374,13 +374,18 @@ ref: refs/heads/master
 ```
 E' possibile spostare la HEAD a un determinato commit passato o fuori branch e si definisce **DETACHED HEAD**. E' da considerarsi una procedura di emergenza. 
 
+Per le operazioni più chirurgiche si consiglia [learn git branching](https://learngitbranching.js.org/).
+
 ---
 # Pull Request
-
+E' un processo di *code review* delle modifiche create in un *feature branch* (branch a cui è associata una funzionalità di progetto), prima di farlo convergere (*merge*) su un branch principale.
+Le pull request sono il cuore della **collaborazione**.
 ---
 # Git Flow
 ---
 # Git Hub Flow
+----
+# Fork and pull
 ----
 # Git as-a-service
 - [Git Hub](https://www.github.com)
@@ -390,8 +395,12 @@ E' possibile spostare la HEAD a un determinato commit passato o fuori branch e s
 - [Atlassian Sourcetree](https://www.sourcetreeapp.com/)
 - [Visual Studio Code](https://code.visualstudio.com/Download)
 ---
-
-
+# Approfondimenti
+- [Git Cheat Sheet](https://github.github.com/training-kit/downloads/it/github-git-cheat-sheet/)
+- [Learn Git Branching](https://learngitbranching.js.org/)
+- [Git Hub Learning Lab](https://lab.github.com/)
+- [Visualizing Git](http://git-school.github.io/visualizing-git/)
+- [Git Hub Flow](https://guides.github.com/introduction/flow/)
 ---
 ![Marp bg 90%](https://raw.githubusercontent.com/marp-team/marp/master/marp.png)
 
