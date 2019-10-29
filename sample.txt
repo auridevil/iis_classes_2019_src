@@ -1,7 +1,0 @@
-  PID TTY           TIME CMD
-58314 ttys000    0:00.19 -zsh
-58650 ttys001    0:01.20 -zsh
-63702 ttys002    0:00.18 -zsh
-66760 ttys003    0:00.08 -zsh
-66814 ttys003    0:00.01 bash
-20967 ttys005    0:00.28 -zsh
