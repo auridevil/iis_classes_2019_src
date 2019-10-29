@@ -47,12 +47,13 @@ Professional Scrum Product Owner
 
 ![bg](./assets/luke-chesser-pJadQetzTkI-unsplash.jpg)
 
-# Sommario
+# Sommario - Modulo 1 VCS
 
 1. Intro
 2. Versionamento
 3. Git
 4. Esercizi
+5. Risorse
 
 ---
 
@@ -625,6 +626,39 @@ Workflow legato all'open source, figlio del github flow. Necessario quando non s
 
 ---
 
+![bg](https://freenaturestock.s3.us-east-1.amazonaws.com/1598.jpg)
+
+### <!--fit--> esercizi
+
+---
+
+1. Da soli:
+   - clonare questo repo
+   - cambiare le immagini riferite in PITCHME.md (vedi /assets/\*.jpg)
+   - salvare le modifiche in un branch
+2. In team (~3 persone):
+   - creare un repository github con un file testo.txt (insieme)
+   - scrivere una parte di testo (ognuno) a scelta, e.g. inventare una poesia o un mini racconto
+   - salvare le proprie modifiche in un branch
+   - creare una pull-request verso master dei propri branch
+   - seguire la review fino a ottenere tutte le modifiche su master
+
+---
+
+3. Da soli
+   - prendere un repository open source su github
+   - fare una fork e modificare qualcosa (e.g. documentazione)
+   - creare una pull-request verso il repository originale
+   - (rimuovere tutto, se non utile)
+
+---
+
+![bg](https://freenaturestock.s3.us-east-1.amazonaws.com/1643.jpg)
+
+### <!--fit--> risorse
+
+---
+
 # Git as-a-service
 
 - [Git Hub](https://www.github.com)
@@ -637,8 +671,7 @@ Workflow legato all'open source, figlio del github flow. Necessario quando non s
 
 - [Atlassian Sourcetree](https://www.sourcetreeapp.com/)
 - [Visual Studio Code](https://code.visualstudio.com/Download)
-
----
+- [Github classroom](https://classroom.github.com/)
 
 ---
 
@@ -651,6 +684,7 @@ Workflow legato all'open source, figlio del github flow. Necessario quando non s
 - [Git Hub Learning Lab](https://lab.github.com/)
 - [Visualizing Git](http://git-school.github.io/visualizing-git/)
 - [Git Hub Flow](https://guides.github.com/introduction/flow/)
+- [Git Flow](https://datasift.github.io/gitflow/IntroducingGitFlow.html)
 
 ---
 
