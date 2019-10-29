@@ -334,7 +334,8 @@ Warning: il rebase è pericoloso da usare. E' facile alterare la salute del repo
 
 ---
 # Incompleti
-Capito di voler mettere da parte delle modifiche incomplete, si usa lo stash. Aggiungi tutte le modifiche (non staged) allo stash:
+Capita di voler mettere da parte delle modifiche incomplete, per farlo si usa lo *stash* (una specie di cut'n'paste gigante). 
+Aggiungi tutte le modifiche (non staged) allo stash:
 ```bash
 git stash
 ```
@@ -401,7 +402,7 @@ To https://github.com/auridevil/iis_classes_2019_src.git
 E' possibile fare il merge se
 - non ci sono conflitti
 - c'è un numero sufficiente di *approve* (da stabilire con il team)
-  
+![width:900px](./assets/pr3.png)
 ---
 # Git Flow
 ---
@@ -424,47 +425,22 @@ E' possibile fare il merge se
 - [Visualizing Git](http://git-school.github.io/visualizing-git/)
 - [Git Hub Flow](https://guides.github.com/introduction/flow/)
 ---
-![Marp bg 90%](https://raw.githubusercontent.com/marp-team/marp/master/marp.png)
-
----
-
-![bg](#123)
-![](#fff)
-
-##### <!--fit--> [@marp-team/marp-cli](https://github.com/marp-team/marp-cli) + [Netlify](https://www.netlify.com/) | [Now](https://zeit.co/now)
-
-##### <!--fit--> 👉 The easiest way to host<br />your Marp deck on the web
-
----
-
-![bg right 70%](https://www.netlify.com/img/press/logos/logomark.svg)
-
-## **[Netlify](https://www.netlify.com/)**
-
-#### Ready to write & host your deck!
-
-[![Deploy to Netlify w:300](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/yhatt/marp-cli-example)
-
----
-
-![bg right 70%](https://assets.zeit.co/image/upload/front/assets/design/now-black.svg)
-
-## **[Now](https://zeit.co/now)**
-
-#### Host your deck by just running `now`!
-
-```bash
-now
-```
-
----
-
 ### <!--fit--> :ok_hand:
 
 ---
 
-![bg 40% opacity blur](https://avatars1.githubusercontent.com/u/3993388?v=4)
+### Created by Aureliano Bergese 
 
-### Created by Yuki Hattori ([@yhatt](https://github.com/yhatt))
+https://github.com/auridevil/
+https://twitter.com/elmozzo
+https://www.instagram.com/elmozzo_buendia/
+https://medium.com/@elmozzo
 
-https://github.com/yhatt/marp-cli-example
+This work is licensed under a [Creative Commons Attribution 4.0 International
+License][cc-by].
+
+[![CC BY 4.0][cc-by-image]][cc-by]
+
+[cc-by]: http://creativecommons.org/licenses/by/4.0/
+[cc-by-image]: https://i.creativecommons.org/l/by/4.0/88x31.png
+[cc-by-shield]: https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg
