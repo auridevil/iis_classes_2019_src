@@ -581,15 +581,47 @@ E' possibile fare il merge se
 
 ---
 
-# Git Flow
+# Git Hub Flow
+
+Workflow semplice in 6 punti per la collaborazione con git:
+
+1. **create branch**: feature branch, dal branch di deploy (solitamente master), orientato alla feature
+2. **commit**: aggiungere in piccoli step le modifiche necessarie alla feature
+3. **pull-request**: per massimizzare la trasparenza, tutto ciò che va su master deve passare da pull-request
 
 ---
 
-# Git Hub Flow
+4. **code-review**: si fanno test e code review collettiva di team, per valutare la bontà della soluzione e del codice, eventuali modifiche necessarie riportano al punto 2
+5. **merge**: si porta master nel feature branch, si controlla che tutto sia coerente e poi si porta il feature branch in master; il feature branch viene chiuso (opzionalmente si fa un tag)
+6. **deploy**: si pubblica il codice modificato, manualmente o tramite un processo di continuous deployment. Se non possibile, bisogna comunque considerare il codice come deployabile (production ready)
+
+---
+
+# Git Flow (accenni)
+
+In questo workflow ci sono alcuni branch fissi per ogni stage degli environment (**dev**,**test**,**demo**,**master**,etc).
+Le modifiche vengono fatte su un feature branch, creato a partire dal branch **dev**.
+"Quando il team è soddisfatto di una feature" la porta nel branch di **dev** dove si prova la convivenza con le altre feature sviluppate.
+Il codice in **dev\*** viene promosso in **test** / **integration** e viene sottoposto a controllo manuale / automatico delle funzionalità.
+
+---
+
+Quindi il codice viene promosso in **demo** / **preprod** e viene validato con il cliente / product owner.
+Insieme al cliente si stabilisce una data di rilascio in cui si promuove il codice in **master** e quindi di deploya in produzione.
+Eventuali bug di produzione vengono fixati creando un branch da **master** e, a fix completato, riportando le modifiche su tutti gli ambienti, compreso quindi master.
+
+[Approfondimento](https://datasift.github.io/gitflow/IntroducingGitFlow.html)
 
 ---
 
 # Fork and pull
+
+Workflow legato all'open source, figlio del github flow. Necessario quando non si hanno i permessi per lavorare su un repository che si vuole modificare.
+
+1. **fork**: fare un fork nel proprio account di un repository remoto
+2. **commit**: aggiungere nel proprio repo le modifiche fatte
+3. **pull-request**: richiedere un merge dal proprio repository a quello originale
+4. **code-review**: i mantainer e la community faranno una code review e valutaranno se mergiare la modifica nel repository originale
 
 ---
 
@@ -605,6 +637,8 @@ E' possibile fare il merge se
 
 - [Atlassian Sourcetree](https://www.sourcetreeapp.com/)
 - [Visual Studio Code](https://code.visualstudio.com/Download)
+
+---
 
 ---
 
