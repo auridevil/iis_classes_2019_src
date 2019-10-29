@@ -653,7 +653,7 @@ Workflow legato all'open source, figlio del github flow. Necessario quando non s
 
 ---
 
-![bg](https://freenaturestock.s3.us-east-1.amazonaws.com/1643.jpg)
+<!--![bg](https://freenaturestock.s3.us-east-1.amazonaws.com/1643.jpg)-->
 
 ### <!--fit--> risorse
 
