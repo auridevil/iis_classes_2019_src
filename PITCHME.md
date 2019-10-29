@@ -626,8 +626,6 @@ Workflow legato all'open source, figlio del github flow. Necessario quando non s
 
 ---
 
-![bg](https://freenaturestock.s3.us-east-1.amazonaws.com/1598.jpg)
-
 ### <!--fit--> esercizi
 
 ---
@@ -652,8 +650,6 @@ Workflow legato all'open source, figlio del github flow. Necessario quando non s
    - (rimuovere tutto, se non utile)
 
 ---
-
-<!--![bg](https://freenaturestock.s3.us-east-1.amazonaws.com/1643.jpg)-->
 
 ### <!--fit--> risorse
 
