@@ -6,7 +6,6 @@ theme: gaia
 class: invert
 paginate: true
 _paginate: false
-footer: "CC aureliano.bergese@gmail.com 2019"
 ---
 
 ![bg](./assets/asoggetti-cfKC0UOZHJo-unsplash.jpg)
@@ -77,6 +76,8 @@ Un DVCS lo fa in maniera distribuita.
 Linus Torvalds 2005
 Junio Hamano v1 (attualmente mantainer)
 
+Basato su **checksum** di file e folder (per la velocità)
+
 ---
 # Repository
 Un repository (repo) o git-project è l'insieme di file e folder associati ad un progetto. Comprende anche lo storico delle modifiche.
@@ -87,9 +88,127 @@ Un repository (repo) o git-project è l'insieme di file e folder associati ad un
 git init
 ```
 ---
-only in master
+# Clona esistente (remoto)
+```bash
+git clone https://github.com/auridevil/iis_classes_2019_src.git
+cd iis_classes_2019
+```
+---
+# Branching
+un branch è un ramo dell'albertatura della storia del codice
+il branch principale è **master**
+![width:900px](./assets/branch1.png)
+
+---
+Tutti i branch del repo
+```bash
+mox@urania$ git branch
+  branchdemo
+* master
+(END)
+```
+
+Cambia branch attivo
+```bash
+git checkout branchdemo
+```
 ---
 
+Crea nuovo branch
+```bash
+git branch funzionalita1425
+```
+
+Crea nuovo branch e utilizza
+```bash
+git checkout -b funzionalita1425
+```
+
+---
+# Aggiungi
+L'aggiunta di un set di modifiche è in due fasi: staging e commit.
+**git add** aggiunge alcune modifiche allo stage 
+
+Aggiungi modifica di un file
+```bash
+git add PITCHME.md
+```
+
+---
+
+Aggiungi tutte le modifiche 
+``` bash
+git add .
+```
+Aggiungi modifiche di un folder
+```bash
+git add assets/*
+```
+NB la cancellazione è una modifica. Solitamente il renaming / move è considerata cancellazione + aggiunta.
+
+---
+**git commit** salva lo snapshot delle modifiche (sul branch correente) e completa il tracciamento
+
+commit con editor 
+``` bash
+git commit
+```
+commit inline
+``` bash
+git commit -m "this is a inline commit message"
+```
+
+---
+# Commit message (best practices)
+- usare l'imperativo
+- max 50 chars
+- no punti finali
+- dichiarare le modifiche fatte ad alto livello
+- includere eventuali riferimenti a documentazione (e.g. jira code, tiketing...)
+  
+---
+```bash
+git commit -m "[type][branch] What is done "
+```
+type è il tipo di modifica:
+- feat: funzionalità nuova
+- fix: correzione errore
+- chore: piccola sistemazione
+- test: copertura del codice
+- doc: documentazione
+
+Se il branch è master, si esclude dal commit message.
+
+---
+# Status
+```bash
+mox@urania$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+	new file:   game.txt
+```
+---
+# Merge
+Combina le modifiche fatte su due branch differenti. E' direzionale: merge **of** un branch **into** un'altro branch.
+
+---
+---
+# Git as-a-service
+- [Git Hub](https://www.github.com)
+- [Git Lab](https://about.gitlab.com)
+- [Bitbucket](https://bitbucket.org/)
+# Tools
+- [Atlassian Sourcetree](https://www.sourcetreeapp.com/)
+- [Visual Studio Code](https://code.visualstudio.com/Download)
+---
+
+
+---
 ![Marp bg 90%](https://raw.githubusercontent.com/marp-team/marp/master/marp.png)
 
 ---
