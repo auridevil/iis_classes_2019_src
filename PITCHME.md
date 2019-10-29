@@ -193,11 +193,195 @@ Changes to be committed:
 	new file:   game.txt
 ```
 ---
-# Merge
+# Diff
+Mostra le differenze non ancora nell'area di staging (pre *git add*)
+```bash
+git diff
+```
+Mostra le differenze tra staging e l'ultima modifica
+```bash
+git diff --staged
+```
+---
+# Unstage
+Rimuovi un file dall’area di staging, ma mantieni le modifiche:
+```bash
+git reset game.txt
+```
+---
+# Merge (locale)
 Combina le modifiche fatte su due branch differenti. E' direzionale: merge **of** un branch **into** un'altro branch.
 
+![width:900px](./assets/merge1.png)
+
 ---
+Porta le modifiche di **branch1** in **branch2**
+```bash
+git checkout branch2
+git merge branch1
+```
+
+Porta le modifiche di **branch2** in **master**
+```bash
+git checkout branch2
+git merge master
+git checkout master
+git merge branch2
+```
 ---
+# Conflitti
+```bash
+mox@urania$ git merge master
+CONFLICT (add/add): Merge conflict in sample2.txt
+Auto-merging sample2.txt
+Automatic merge failed; fix conflicts and then commit the result.
+```
+file in conflitto:
+```bash
+><<<<<<<< HEAD
+code from the current branch
+=======
+code from master branch
+<>>>>>>>> master
+```
+---
+modificare a mano il file in conflitto per ottenere
+```bash
+code mix from both branches
+```
+aggiungere la modifica al branch per completare il merge
+```bash
+git add sample2.txt
+git commit -m "merge from master"
+```
+---
+# Remote
+E' possibile aggiungere un server remoto (se non si è partiti da un clone) per usare git distribuito:
+```bash
+git remote add origin https://github.com/auridevil/iis_classes_2019_src.git 
+```
+il nome di default del remote è *origin*. Per verificare l'aggiunta:
+```bash
+mox@urania$ git remote -v
+origin	https://github.com/auridevil/iis_classes_2019_src.git (fetch)
+origin	https://github.com/auridevil/iis_classes_2019_src.git (push)
+```
+---
+# Pull
+Per ottenere le modifiche dal server su master:
+```bash
+git pull origin master
+```
+o (unsafe):
+```bash
+git pull
+```
+---
+per *pullare* un branch:
+```bash
+git pull origin branch3
+```
+
+git pull prova a mergiare in locale quello che c'è sul server, se serve più controllo si può usare *git fetch* (avanzato)
+```bash
+git fetch
+```
+---
+# Push
+Per inviare le modifiche al server da locale, sul branch remoto di master:
+```bash
+git push origin master
+```
+per *pushare* su un branch particolare, remoto:
+```bash
+git push origin branch3
+```
+---
+# Merge (remote)
+Porta le modifiche di **branch2** in **master**, con fast-forward
+```bash
+git checkout master
+git pull origin master
+git checkout branch2
+git merge master
+git push origin branch2
+git checkout master
+git merge branch2
+git push origin master
+```
+---
+Porta le modifiche di **branch2** in **master**, con conflitto:
+```bash
+git checkout master
+git pull origin master
+git checkout branch2
+git merge master
+<fix conflict>
+git add .
+git commit -m "merge from master"
+git push origin branch2
+git checkout master
+git merge branch2
+git push origin master
+```
+---
+# Rebase
+Prendi tutti i cambiamenti fatti su un branch e portali su un altro
+```bash
+git rebase branch3
+```
+Warning: il rebase è pericoloso da usare. E' facile alterare la salute del repository, l'utilizzo è sconsigliato salvo rari casi di emergenza (seguire le guide ufficiali online).
+
+---
+# Incompleti
+Capito di voler mettere da parte delle modifiche incomplete, si usa lo stash. Aggiungi tutte le modifiche (non staged) allo stash:
+```bash
+git stash
+```
+Riapplica le modifiche nello stash
+```bash
+git stash apply
+```
+
+---
+# Storico
+E' possibile vedere lo storico dei commit da cli:
+```bash
+git log
+```
+---
+
+# File ignorati
+E' quasi sempre necessario NON versionare alcuni file e folder, ad esempio dove sono contenute password o stringhe di connessione ai database, i file compilati, i file degli editor e le dipendenze.
+Per questo si mette nella root del progetto un file *.gitignore* dove si indicano i file (regex allowed) da ignorare. Git non vedrà modifiche a questo tipo di file, né traccierà la loro esistenza.
+
+[Git Hub .gitignore list](https://github.com/github/gitignore)
+
+---
+# Tag
+E' possibile aggiungere dei tag ad un determinato commit su un determinato branch (solitamente master), ad esempio per tracciare un rilascio, o una breaking change:
+```bash
+git tag -a v1.5.2 -m "Version 1.5.2 on westeurope + northeurope servers PROD"
+git push --tags origin master
+```
+
+---
+# HEAD
+La HEAD del repository locale è un puntatore al branch attuale
+```bash
+mox@urania$ cat .git/HEAD
+ref: refs/heads/master
+```
+E' possibile spostare la HEAD a un determinato commit passato o fuori branch e si definisce **DETACHED HEAD**. E' da considerarsi una procedura di emergenza. 
+
+---
+# Pull Request
+
+---
+# Git Flow
+---
+# Git Hub Flow
+----
 # Git as-a-service
 - [Git Hub](https://www.github.com)
 - [Git Lab](https://about.gitlab.com)
