@@ -1,7 +1,7 @@
 ---
 marp: true
-title: Corso Gestione Progetti 2019
-description: Corso di aggiornamento gestione progetti per i docenti del Istituto Tecnico Vallauri
+title: Software Development Lifecycle
+description: Software Development Lifecycle - Hints & Insights
 theme: gaia
 class: invert
 paginate: true
