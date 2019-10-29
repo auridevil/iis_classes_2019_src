@@ -1,14 +1,9 @@
 # IIS CLASSES 2019 SLIDE src
 [![CC BY 4.0][cc-by-shield]][cc-by]
 
-## See published slide
-
-  <img src="https://www.netlify.com/img/press/logos/logomark.svg" width="24" height="24" valign="bottom" /> **[Netlify]**: https://gest-progetti-iis.netlify.com/
 
 
-## Usage
-
-## Install
+### Install
 
 ```bash
 yarn
@@ -36,6 +31,10 @@ The built assets will output to `dist` folder.
 yarn deck      # Output static HTML to dist/index.html
 yarn og-image  # Output image for Open Graph to dist/og-image.jpg
 ```
+
+### Published on-with netlify
+
+  <img src="https://www.netlify.com/img/press/logos/logomark.svg" width="24" height="24" valign="bottom" /> **[Netlify]**: https://gest-progetti-iis.netlify.com/
 
 ## LICENSE
 
