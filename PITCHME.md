@@ -118,13 +118,13 @@ Un DVCS lo fa in maniera distribuita.
 
 ---
 
-![bg](./assets/free-nature-stock-OQfuugXSfH0-unsplash.jpg)
+![bg](https://freenaturestock.s3.amazonaws.com/1533.jpg)
 
 ### <!--fit--> GIT
 
 ---
 
-![bg](./assets/free-nature-stock-OQfuugXSfH0-unsplash.jpg)
+![bg](https://freenaturestock.s3.amazonaws.com/1533.jpg)
 
 (Distributed) Version Control System
 (git = idiota)
@@ -601,7 +601,7 @@ E' possibile fare il merge se
 
 # Tools
 
-![bg](./assets/free-nature-stock-OQfuugXSfH0-unsplash.jpg)
+![bg](https://freenaturestock.s3.amazonaws.com/1533.jpg)
 
 - [Atlassian Sourcetree](https://www.sourcetreeapp.com/)
 - [Visual Studio Code](https://code.visualstudio.com/Download)
@@ -610,7 +610,7 @@ E' possibile fare il merge se
 
 # Approfondimenti
 
-![bg](./assets/free-nature-stock-OQfuugXSfH0-unsplash.jpg)
+![bg](https://freenaturestock.s3.amazonaws.com/1533.jpg)
 
 - [Git Cheat Sheet](https://github.github.com/training-kit/downloads/it/github-git-cheat-sheet/)
 - [Learn Git Branching](https://learngitbranching.js.org/)
@@ -620,13 +620,13 @@ E' possibile fare il merge se
 
 ---
 
-![bg](./assets/free-nature-stock-OQfuugXSfH0-unsplash.jpg)
+![bg](https://freenaturestock.s3.amazonaws.com/1533.jpg)
 
 ### <!--fit--> :ok_hand:
 
 ---
 
-![bg](./assets/free-nature-stock-OQfuugXSfH0-unsplash.jpg)
+![bg](https://freenaturestock.s3.amazonaws.com/1533.jpg)
 
 ### Created by Aureliano Bergese
 
