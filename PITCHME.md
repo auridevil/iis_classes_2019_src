@@ -601,7 +601,7 @@ E' possibile fare il merge se
 
 # Tools
 
-![bg](./assets/nathan-dumlao-8MJS2DAyAHM-unsplash.jpg)
+![bg](./assets/free-nature-stock-OQfuugXSfH0-unsplash.jpg)
 
 - [Atlassian Sourcetree](https://www.sourcetreeapp.com/)
 - [Visual Studio Code](https://code.visualstudio.com/Download)
@@ -610,7 +610,7 @@ E' possibile fare il merge se
 
 # Approfondimenti
 
-![bg](./assets/nathan-dumlao-8MJS2DAyAHM-unsplash.jpg)
+![bg](./assets/free-nature-stock-OQfuugXSfH0-unsplash.jpg)
 
 - [Git Cheat Sheet](https://github.github.com/training-kit/downloads/it/github-git-cheat-sheet/)
 - [Learn Git Branching](https://learngitbranching.js.org/)
@@ -620,13 +620,13 @@ E' possibile fare il merge se
 
 ---
 
-![bg](./assets/resul-DbwYNr8RPbg-unsplash.jpg)
+![bg](./assets/free-nature-stock-OQfuugXSfH0-unsplash.jpg)
 
 ### <!--fit--> :ok_hand:
 
 ---
 
-![bg](./assets/resul-DbwYNr8RPbg-unsplash.jpg)
+![bg](./assets/free-nature-stock-OQfuugXSfH0-unsplash.jpg)
 
 ### Created by Aureliano Bergese
 
