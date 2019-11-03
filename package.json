@@ -9,7 +9,7 @@
     "build": "rimraf dist && yarn -s og-image && yarn -s lesson1 && yarn -s lesson2 && yarn -s pdf1 && yarn -s pdf2 && yarn -s assets",
     "lesson1": "marp --no-stdin LESSON1.md -o dist/lesson1.html",
     "lesson2": "marp --no-stdin LESSON2.md -o dist/lesson2.html",
-    "now-build": "yarn -s lesson1 && yarn -s lesson2 && yarn assets",
+    "now-build": "yarn -s build",
     "og-image": "marp LESSON1.md -o dist/og-image.jpg",
     "pdf1": "marp --no-stdin LESSON1.md --pdf -o dist/lesson1.pdf",
     "pdf2": "marp --no-stdin LESSON2.md --pdf -o dist/lesson2.pdf",

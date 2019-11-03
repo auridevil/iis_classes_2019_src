@@ -2,6 +2,10 @@
 
 [![CC BY 4.0][cc-by-shield]][cc-by] [![Netlify Status](https://api.netlify.com/api/v1/badges/d219c5cd-643b-4702-ada3-0f0790c61744/deploy-status)](https://app.netlify.com/sites/gest-progetti-iis/deploys)
 
+### Live
+
+https://iisclasses2019src.elmozzo.now.sh/
+
 ### Install
 
 ```bash
@@ -31,8 +35,9 @@ yarn deck      # Output static HTML to dist/index.html
 yarn og-image  # Output image for Open Graph to dist/og-image.jpg
 ```
 
-### Published on-with netlify
+### Published on-with zeit now! and netlify
 
+<img src="https://assets.zeit.co/image/upload/front/assets/design/now-black.svg" width="24" height="24" valign="bottom" /> **[Now!]**: https://iisclasses2019src.elmozzo.now.sh/
 <img src="https://www.netlify.com/img/press/logos/logomark.svg" width="24" height="24" valign="bottom" /> **[Netlify]**: https://gest-progetti-iis.netlify.com/
 
 ## LICENSE
