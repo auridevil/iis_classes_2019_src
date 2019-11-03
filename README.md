@@ -37,8 +37,8 @@ yarn og-image  # Output image for Open Graph to dist/og-image.jpg
 
 ### Published on-with zeit now! and netlify
 
-<img src="https://assets.zeit.co/image/upload/front/assets/design/now-black.svg" width="24" height="24" valign="bottom" /> **[Now!]**: https://iisclasses2019src.elmozzo.now.sh/
-<img src="https://www.netlify.com/img/press/logos/logomark.svg" width="24" height="24" valign="bottom" /> **[Netlify]**: https://gest-progetti-iis.netlify.com/
+- <img src="https://assets.zeit.co/image/upload/front/assets/design/now-black.svg" width="24" height="24" valign="bottom" /> **[Now!]**: https://iisclasses2019src.elmozzo.now.sh/
+- <img src="https://www.netlify.com/img/press/logos/logomark.svg" width="24" height="24" valign="bottom" /> **[Netlify]**: https://gest-progetti-iis.netlify.com/
 
 ## LICENSE
 
