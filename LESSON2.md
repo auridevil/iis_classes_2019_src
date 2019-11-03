@@ -22,7 +22,214 @@ _paginate: false
 
 # Sommario - Modulo 2
 
-1. I
+1. Bootstrap di un progetto
+2. Pianificare lo sviluppo
+3. Ruoli
+4. Step
+5. Documentazione
+
+---
+
+![bg](./assets/luke-chesser-CxBx_J3yp9g-unsplash.jpg)
+
+### <!--fit--> Bootstrap di un progetto
+
+---
+
+Repository e versionamento
+
+---
+
+Scelta del linguaggio e delle tecnologie
+
+---
+
+Numeri di versione
+
+---
+
+CHANGELOG
+
+---
+
+README
+
+---
+
+CONTRIBUTING
+
+---
+
+BOILERPLATE
+
+---
+
+![bg](./assets/luke-chesser-CxBx_J3yp9g-unsplash.jpg)
+
+### <!--fit--> Pianificare lo sviluppo
+
+## Da dove iniziare
+
+---
+
+Top Down
+
+---
+
+Bottom Up
+
+---
+
+Core First
+
+---
+
+Data Mock
+
+---
+
+![bg](./assets/luke-chesser-CxBx_J3yp9g-unsplash.jpg)
+
+### <!--fit--> Ruoli
+
+## Chi fa cosa
+
+---
+
+Analista
+
+---
+
+DEV
+
+---
+
+Frontend developer
+
+---
+
+Backend developer
+
+---
+
+Fullstack developer
+
+---
+
+Web developer
+
+---
+
+DB developer
+
+---
+
+Tester
+
+---
+
+Project Manager
+
+---
+
+Ops
+
+---
+
+Dev-Ops
+
+---
+
+DBA
+
+---
+
+Cliente
+
+---
+
+![bg](./assets/luke-chesser-CxBx_J3yp9g-unsplash.jpg)
+
+### <!--fit--> Step di Progetto
+
+## Come si è sempre fatto
+
+---
+
+Raccolta Requisiti
+
+---
+
+Analisi
+(output funzionale)
+
+---
+
+Design
+(output tecnica)
+
+---
+
+Sviluppo
+(output codice)
+
+---
+
+Test
+
+---
+
+Validazione
+
+---
+
+Rilascio
+
+---
+
+Mantenimento
+
+---
+
+Evolutive
+
+---
+
+![bg](./assets/luke-chesser-CxBx_J3yp9g-unsplash.jpg)
+
+### <!--fit--> Documentazione
+
+---
+
+Scelte Tecniche
+
+---
+
+Manuale utente
+
+---
+
+Manuale di manutezione
+
+---
+
+Mappa infrastrutturale
+
+---
+
+Documentazione del codice
+
+---
+
+Commenti
+
+---
+
+Codice leggibile
+
+---
+
+Readme & Markdown
 
 ---
 
