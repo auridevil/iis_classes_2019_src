@@ -27,6 +27,7 @@ _paginate: false
 3. Ruoli
 4. Step
 5. Documentazione
+6. Dev-Ops
 
 ---
 
@@ -36,31 +37,111 @@ _paginate: false
 
 ---
 
-Repository e versionamento
+# Repository e versionamento
+
+- creazione repo su GitHub (o similare)
+- clonare repo sulla propria macchina
+- aggiungere collaboratori
+- impostare eventuali webhook
 
 ---
 
-Scelta del linguaggio e delle tecnologie
+# Scelta del linguaggio e delle tecnologie
+
+Variabili:
+
+- Conoscenza del team
+- Tempo a disposizione
+- Espressività
+- Dominio
+- Librerie dedicate
+- Trends e stimolo dei devs
 
 ---
 
-Numeri di versione
+# Numeri di versione
+
+Seguire le regole di semantic versioning [semver](https://semver.org/)
+
+### <!--fit--> MAJOR.MINOR.PATCH (e.g. 2.4.12)
+
+MAJOR: versione con cambiamenti incompatibili (breaking change)
+MINOR: versione con nuove funzionalità, retrocompatibile
+PATCH: versione con bug fixes e func fixes
+
+1.0.0 è la prima versione matura, non la prima rilasciata
+Si incrementa la versione quando del codice nuovo entra in _master_
 
 ---
 
-CHANGELOG
+# Documentazione in project
+
+Sono file nella root del progetto, solitamente scritti in linguaggio Markdown:
+
+- CHANGELOG
+- README
+- CONTRIBUTING
+
+E' bene redarli e tenerli aggiornati fin dal principio.
+
+(continua)
 
 ---
 
-README
+# CHANGELOG
+
+Traccia lo storico delle funzionalità su _master_, associato al numero di versione e la data.
+
+```
+## [0.3.0] - 2021-31-02
+### Added
+- IT translation from [@schillaci](https://github.com/ttskill).
+- force API to be async in params from [@auridevil](https://github.com/auridevil).
+### Fixed
+- Delay in microservices discovery from [@converge](https://github.com/converge)
+
+## [0.2.9] - 2021-28-02
+### Fixed
+...
+```
 
 ---
 
-CONTRIBUTING
+# README
+
+- Cosa serve il progetto (short)
+- I passi per far "partire" il progetto (comp)
+- I passi per eseguire i test unitari (comp)
+- Come interagire con il sw
+- Chi ha scritto il progetto e con che licenza è rilasciato il sorgente
+- Varie info aggiuntive
 
 ---
 
-BOILERPLATE
+# CONTRIBUTING
+
+- Messaggi di commit
+- Branch naming
+- Come fare un fork & pull
+- Cosa è necessario per sottomettere una pull-request
+- Livello minimo di coverage richiesto
+- Convenzioni di codice / stile
+- Filosofia dietro al progetto
+
+---
+
+# BOILERPLATE
+
+E' utile tenere un repository boilerplate per i propri progetti, da cui partire velocemente a lavorare (con la documentazione in progetto, i folder per i sorgenti e i test, il gitignore, et cetera).
+
+Una volta clonato il _boilerplate project_, cambiare origin:
+
+```bash
+$ git remote rm origin
+$ git remote add origin git@github.com:auridevil/newprojectcool.git
+$ git config master.remote origin
+$ git config master.merge refs/heads/master
+```
 
 ---
 
