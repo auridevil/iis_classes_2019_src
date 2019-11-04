@@ -24,8 +24,8 @@ _paginate: false
 
 1. Bootstrap di un progetto
 2. Pianificare lo sviluppo
-3. Ruoli
-4. Step
+3. Step
+4. Ruoli
 5. Documentazione
 6. Dev-Ops
 
@@ -33,7 +33,9 @@ _paginate: false
 
 ![bg](./assets/luke-chesser-CxBx_J3yp9g-unsplash.jpg)
 
-### <!--fit--> Bootstrap di un progetto
+### <!--fit--> our new project!
+
+### <!--fit--> (bootstrap)
 
 ---
 
@@ -149,31 +151,118 @@ $ git config master.merge refs/heads/master
 
 ### <!--fit--> Pianificare lo sviluppo
 
-## Da dove iniziare
+##### <!--fit-->da dove iniziare
 
 ---
 
-Top Down
+# Top Down
+
+Si parte da una visione d'insieme e poco per volta si _specializza_.
+
+_Divide et impera_:
+
+- Identificazione delle macro funzionalità
+- Suddivisione in sotto funzionalità
+- Implementazione
+- Ricostruzione della piramide
+
+valorizza il **perché**, da cui il **come** emerge
 
 ---
 
-Bottom Up
+# Bottom Up
+
+Si parte da un'idea e si va iterativamente verso una visione, tramite _composizione_.
+
+- Soluzioni già esistenti
+- Soluzioni facili
+- Creazione di unità funzionali
+
+parte da un **come**, cercando di fare emergere un perchè
+
+idale per _POC_ develpment (proof of concept) e validazione di soluzioni tecniche _quick'n'dirty_
 
 ---
 
-Core First
+# Core Approach
+
+Si fa un design _top down_ ma si sviluppa _bottom up_.
+Ordine di sviluppo
+
+- le aree di maggiore rapporto complessità / valore
+- le aree di alto valore e minore complessità
+- le aree di basso valore e bassa complessità
+- esclusione delle aree di basso valore e bassa complessità
 
 ---
 
-Data Mock
+# About Mock
+
+Componenti software (oggetti / api / database) che **fingono** una funzionalità ritornando staticamente dei dati. Utili per sviluppare e testare componenti senza attendere altri sviluppi.
+
+```js
+const getBookByID = async function(bookId) {
+  return {
+    id: bookId,
+    title: "mocked book from db",
+    isbn: "fakeisbn0123",
+    ...{ otherStaticData },
+  };
+};
+```
 
 ---
 
 ![bg](./assets/luke-chesser-CxBx_J3yp9g-unsplash.jpg)
 
-### <!--fit--> Ruoli
+### <!--fit--> Step di Progetto
 
-## Chi fa cosa
+## (come si è sempre fatto)
+
+---
+
+Raccolta Requisiti
+
+---
+
+Analisi
+(output funzionale)
+
+---
+
+Design
+(output tecnica)
+
+---
+
+Sviluppo
+(output codice)
+
+---
+
+Test
+
+---
+
+Validazione
+
+---
+
+Rilascio
+
+---
+
+Mantenimento
+
+---
+
+Evolutive
+
+---
+
+![bg](./assets/luke-chesser-CxBx_J3yp9g-unsplash.jpg)
+
+### <!--fit--> Attori
 
 ---
 
@@ -226,53 +315,6 @@ DBA
 ---
 
 Cliente
-
----
-
-![bg](./assets/luke-chesser-CxBx_J3yp9g-unsplash.jpg)
-
-### <!--fit--> Step di Progetto
-
-## Come si è sempre fatto
-
----
-
-Raccolta Requisiti
-
----
-
-Analisi
-(output funzionale)
-
----
-
-Design
-(output tecnica)
-
----
-
-Sviluppo
-(output codice)
-
----
-
-Test
-
----
-
-Validazione
-
----
-
-Rilascio
-
----
-
-Mantenimento
-
----
-
-Evolutive
 
 ---
 
