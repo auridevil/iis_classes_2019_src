@@ -310,6 +310,10 @@ Questa fase è di duranta uguale alla vita del software. Comprende tutte le atti
 
 ---
 
+![Marp bg 70%](./assets/waterfall.png)
+
+---
+
 # Evolutive (CR)
 
 Sono le richieste aggiuntive ad un progetto esistente.
@@ -325,9 +329,17 @@ Per un blocco di evolutive si segue tutto il processo, dai requisiti al mantenim
 
 # Analista
 
+E' il primo a prendere in mano i requisiti. Il suo lavoro è progettare e ingenierizzare il software partendo dai requisiti.
+
+Non è un tecnico ma ha idea delle possibilità tecnologiche del team ed è in grado di creare il software richiesto _in prosa_, nell'analisi.
+
 ---
 
-# UX Designer
+# UX Designer
+
+Aiuta l'analista nella fase di definizione di _come sarà il software_. Utilizza varie metodologie per _pensare_ il software più efficace possibile e inidirizzare eventuali requisiti non emersi in prima fase.
+
+Tramite la creazione di **wireframes** fornisce al cliente un'anteprima dell'esperienza utente e al team di sviluppo un'idea del desiderata.
 
 ---
 
@@ -464,35 +476,62 @@ Distinguere tra **_utente finale_** e **_cliente_** e **_finanziatore_**.
 
 ---
 
-Scelte Tecniche
+# Ufficiale
+
+- Analisi Funzionale
+- Analisi Tecnica
+- Manuale Utente
+- Mappe infrastrutturali
+- Diagramma delle classi
+- Data Model
+- Manuale di manutenzione
 
 ---
 
-Manuale utente
+# Documentazione in project
+
+- README
+- CONTRIBUTING
+- CHANGELOG
+- git log
+- codice auto-documentante
+- /_ commenti _/ (solo se super necessari)
+- configurazioni del linter / IDE
 
 ---
 
-Manuale di manutezione
+# Markdown
+
+Linguaggio di markup dalla sintassi semplice e dalla facile conversione in html.
+
+Rispetto a html e LaTex è più facile da leggere e editare senza un'approfondita conoscenza.
+
+```bash
+# Documentazione in project
+- README
+- CONTRIBUTING
+- CHANGELOG
+---
+```
 
 ---
 
-Mappa infrastrutturale
+![bg](./assets/luke-chesser-CxBx_J3yp9g-unsplash.jpg)
+
+### <!--fit--> DEV OPS
 
 ---
 
-Documentazione del codice
+Insieme di pratiche che combinano lo sviluppo software con le IT operations.
+
+- ridurre la lunghezza del ciclo di vita del software
+- continuous delivery
+- sofware di qualità superiore
+- automatizzare tutto il possibile
 
 ---
 
-Commenti
-
 ---
-
-Codice leggibile
-
----
-
-Readme & Markdown
 
 ---
 
