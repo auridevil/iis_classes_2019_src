@@ -4,8 +4,8 @@
 
 ### Live
 
-https://gest-progetti-iis.netlify.com/
-https://iisclasses2019src.elmozzo.now.sh/ (problem in deploy at the moment)
+- https://gest-progetti-iis.netlify.com/
+- https://iisclasses2019src.elmozzo.now.sh/ (problem in deploy with now! at the moment)
 
 ### Install
 
@@ -19,7 +19,7 @@ yarn
 yarn start
 ```
 
-It will be opened preview window via Chrome, and track change of `PITCHME.md`.
+It will be opened preview window via Chrome, and track change of `LESSON1.md` and `LESSON2.md`.
 
 ### Build deck
 
@@ -33,15 +33,6 @@ The built assets will output to `dist` folder.
 
 ```bash
 yarn pdf
-```
-
-The built assets will output to `dist` folder.
-
-#### Build per assets
-
-```bash
-yarn deck      # Output static HTML to dist/index.html
-yarn og-image  # Output image for Open Graph to dist/og-image.jpg
 ```
 
 ### Published on-with zeit now! and netlify
