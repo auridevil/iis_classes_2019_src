@@ -522,6 +522,8 @@ Rispetto a html e LaTex è più facile da leggere e editare senza un'approfondit
 
 ---
 
+# (Accenni di devops)
+
 Insieme di pratiche che combinano lo sviluppo software con le IT operations.
 
 - ridurre la lunghezza del ciclo di vita del software
@@ -531,7 +533,16 @@ Insieme di pratiche che combinano lo sviluppo software con le IT operations.
 
 ---
 
----
+# Strumenti
+
+- vcs
+- continuous integration
+- continuous testing
+- continuous deployment
+- atomatic provisioning
+- infrastructure as code
+- monitoring tools
+- self healing infrastructures & HA
 
 ---
 
