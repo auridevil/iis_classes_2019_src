@@ -191,7 +191,7 @@ Ordine di sviluppo
 - le aree di maggiore rapporto complessità / valore
 - le aree di alto valore e minore complessità
 - le aree di basso valore e bassa complessità
-- esclusione delle aree di basso valore e bassa complessità
+- esclusione delle aree di basso valore e alta complessità
 
 ---
 
