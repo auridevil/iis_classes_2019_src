@@ -539,7 +539,7 @@ Insieme di pratiche che combinano lo sviluppo software con le IT operations.
 - continuous integration
 - continuous testing
 - continuous deployment
-- atomatic provisioning
+- automatic provisioning
 - infrastructure as code
 - monitoring tools
 - self healing infrastructures & HA
