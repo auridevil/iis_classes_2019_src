@@ -98,7 +98,11 @@ Kent Beck, Robert Martin, **Martin Fowler**, e altri... Pubblicazione dell'**Man
 
 ---
 
-![Marp bg 100%](./assets/MVP.png)
+## ![Marp bg 100%](./assets/MVP.png)
+
+---
+
+## Empirismo?
 
 ---
 
@@ -118,21 +122,102 @@ Kent Beck, Robert Martin, **Martin Fowler**, e altri... Pubblicazione dell'**Man
 
 ---
 
-## Intro
+# SCRUM
 
-## Intro
+- framework _agile_ creato da Ken Schwaber e Jeff Sutherland
+- framework per sviluppare e sostenere prodotti complessi
+- non una tecnica, non un processo
+- **controllo empirico** da cicli di feeback frequenti in opposizione al _command and control_
+- facile da capire
+- difficile da padroneggiare
+- leggero
+- basato sulla scrum guide (19 pag.) [scrumguides.org](https://www.scrumguides.org/)
+
+---
+
+# 3 pilastri
+
+# 5 valori
+
+# 3 ruoli
 
 ---
 
----
+## Empirismo
+
+\
+La conoscenza arriva dall'esperienza e le decisioni si basano su ciò che si conosce.
+\
+\
+Scrum applica un metodo iterativo ad approcio incrementale per ottimizzare la prevedibilità e il controllo del rischio.
 
 ---
 
----
+# I 3 Pilastri
+
+- **trasparenza**: gli aspetti significativi del processo devono essere visibili ai responsabili del risultato
+- **ispezione**: è un aspetto critico dell'empirismo, può essere fatta sia sul prodotto, che sulle persone, che su ogni aspetto di scrum
+- **adattamento**: viene dall'ispezione e va applicato il prima possibile per iniziare un nuovo ciclo di (trasparenza) ispezione e adattamento.
 
 ---
 
+# I 5 Valori
+
+- impegno
+- coraggio
+- concentrazione (focus)
+- apertura
+- rispetto
+
+I valori vanno vissuti per dare vita ai pilastri e creare **fiducia**.
+Scrum si nutre di e alimenta questi valori.
+
 ---
+
+# Scrum TEAM
+
+Lo scrum team è
+
+- auto organizzato: sceglie come meglio compiere il proprio lavoro
+- cross funzionale
+
+Il modello serve per ottimizzare:
+
+- flessibilità
+- creatività
+- produttività
+
+---
+
+# Scrum TEAM
+
+- Product Owner (PO)
+- Dev Team (DEV)
+- Scrum Master (SM)
+
+---
+
+Product Owner
+
+---
+
+Dev Team
+
+---
+
+Dev Team 2
+
+---
+
+Scrum Master
+
+---
+
+Scrum Master per PO
+
+---
+
+Scrum Master per DEV
 
 ---
 

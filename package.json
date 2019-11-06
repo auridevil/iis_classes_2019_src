@@ -1,17 +1,18 @@
 {
   "name": "iis_classes_2019",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "Aureliano Bergese <aureliano.bergese@gmail.com>",
   "license": "WTFPL",
   "private": true,
   "scripts": {
     "assets": "cpx \"assets/**/*\" dist/assets && cpx \"static/**/*\" dist",
-    "build": "rimraf dist && yarn -s og-image && yarn -s lesson1 && yarn -s lesson2 && yarn -s assets",
+    "build": "rimraf dist && yarn -s og-image && yarn -s lesson1 && yarn -s lesson2 && yarn lesson3 && yarn -s assets",
     "lesson1": "marp --no-stdin LESSON1.md -o dist/lesson1.html && marp --no-stdin LESSON1.md --pdf -o dist/lesson1.pdf",
     "lesson2": "marp --no-stdin LESSON2.md -o dist/lesson2.html && marp --no-stdin LESSON2.md --pdf -o dist/lesson2.pdf",
+    "lesson3": "marp --no-stdin LESSON3.md -o dist/lesson3.html && marp --no-stdin LESSON3.md --pdf -o dist/lesson3.pdf",
     "now-build": "yarn -s og-image && yarn -s lesson1 && yarn -s lesson2 && yarn -s assets",
     "og-image": "marp LESSON1.md -o dist/og-image.jpg",
-    "pdf": "marp --no-stdin LESSON1.md --pdf -o lesson1.pdf && marp --no-stdin LESSON2.md --pdf -o lesson2.pdf",
+    "pdf": "marp --no-stdin LESSON1.md --pdf -o lesson1.pdf && marp --no-stdin LESSON2.md --pdf -o lesson2.pdf && marp --no-stdin LESSON3.md --pdf -o lesson3.pdf",
     "start": "marp -ps ."
   },
   "devDependencies": {
