@@ -141,6 +141,8 @@ Kent Beck, Robert Martin, **Martin Fowler**, e altri... Pubblicazione dell'**Man
 
 # 3 ruoli
 
+# 5 eventi
+
 ---
 
 ## Empirismo
@@ -197,27 +199,125 @@ Il modello serve per ottimizzare:
 
 ---
 
-Product Owner
+## Product Owner
+
+Il Product Owner ha la responsabilità di massimizzare il valore del prodotto risultante dal lavoro svolto dal Team di Sviluppo.
+
+E' il responsabile reale del prodotto e tutti devono rispettare le sue decisioni. Nessun'altro ha il permesso di dire al dev team su cosa lavorare.
 
 ---
 
-Dev Team
+MOVEME product backlog?
+Il Product Owner è l'unica persona responsabile della gestione del **Product Backlog**:
+
+- chiarezza degli elementi
+- corretto ordinamento degli elementi per raggiungere gli obietti
+- ottimizzazione del lavoro del devteam
+- visibilità, trasparenza e chiarezza del product backlog
+- comprensione da parte dei membri del devteam
 
 ---
 
-Dev Team 2
+## devteam
+
+Professionisti che lavorano **insieme** per consegnare un **incremento** di prodotto **done** potenzialmente rilasciabile alla fine di ogni **sprint**.
+
+- auto organizzati
+- cross funzionali
+- non esistono titoli o gerarchie interne
+- non esistono sotto-team
+- il team nel complesso ha la responsabilità condivisa, non esistono responsabilità per specializzazione / area
 
 ---
 
-Scrum Master
+TUTTO IL DEV TEAM E' EGUALMENTE RESPONSABILE VERSO IL PRODUCT OWNER.
+
+## Dimensione:
+
+2 Pizzas Rule: 3-9 persone
+
+Team troppo piccoli: rischio di mancanza di skill
+Team troppo grossi: troppa complessità rispetto a quella gestibile empiricamente
 
 ---
 
-Scrum Master per PO
+## Scrum Master
+
+\
+Responsabile di promuovere e sostenere SCRUM. Aiuta chiunque a comprendere teoria - pratiche - regole - valori.
+\
+\
+E' un leader al servizio dello scrum team (**servant leadership**).
 
 ---
 
-Scrum Master per DEV
+### Scrum Master servant per PO
+
+- assicura che gli obiettivi siano chiari a tutti nello scrum team
+- cerca tecniche efficaci per la gestione del product backlog
+- supporta la comprensione della pianificazione empirica
+- aiuta il po a massimizzare il valore
+- facilita gli eventi di scrum **come richiesto e necessario**
+
+---
+
+### Scrum Master servant per DEV
+
+- allena il team all'auto organizzazione e alla cross-funzionalità
+- aiuta a creare prodotti di alto valore
+- elimina gli ostacoli di avanzamento
+- facilita gli eventi di scrum **come richiesto e necessario**
+- assiste (e protegge) il dev team in ambienti in cui scrum non è ancora pienamente adottato o compreso
+
+---
+
+# EVENTI
+
+- sprint
+- daily scrum
+- sprint review
+- sprint retrospective
+- sprint planning
+
+Gli eventi sono specificamente progettati per consentire trasparenza ed ispezione critiche. Un fallimento nell'includere uno qualsiasi di questi eventi comporta una riduzione della trasparenza ed è un’occasione mancata per praticare l’ispezione e l’adattamento.
+
+---
+
+## Sprint
+
+Periodo **time-boxed** di [1-4] settimane durante la quale viene creato un **incremento** di prodotto potenzialmente rilasciabile (**done**).
+
+E' di durata costante (e invaribile, in corsa).
+
+Alla fine di uno sprint parte immediatamente un nuovo sprint.
+
+Contiene tutti gli altri eventi:lo Sprint Planning, i Daily Scrum, il lavoro di sviluppo (non un evento), la Sprint Review e la Sprint Retrospective.
+
+---
+
+Ogni sprint ha un **obiettivo** di ciò che si va a costruire e uno **Sprint Goal** (deciso dal PO).
+
+Durante:
+
+- non possono essere fatte modifiche che mettano a rischio il goal
+- gli obiettivi di qualità non devono degradarsi
+- la visibilità può essere chiarita e rinegoziata tra il Product Owner e il devteam, quando si è appreso di più.
+
+---
+
+## Daily Scrum
+
+---
+
+## Spint Review
+
+---
+
+## Sprint Planning
+
+---
+
+## Sprint Retrospective
 
 ---
 
