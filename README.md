@@ -2,6 +2,8 @@
 
 [![CC BY 4.0][cc-by-shield]][cc-by] [![Netlify Status](https://api.netlify.com/api/v1/badges/d219c5cd-643b-4702-ada3-0f0790c61744/deploy-status)](https://app.netlify.com/sites/gest-progetti-iis/deploys)
 
+Slide utilizzate durante l'aggiornamento ai docenti del IIS G.Vallauri di Fossano riguardo la gestione dei progetti.
+
 ### Live
 
 - https://gest-progetti-iis.netlify.com/

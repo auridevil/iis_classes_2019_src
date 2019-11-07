@@ -25,6 +25,7 @@ _paginate: false
 1. Agile
 2. Scrum
 3. Kanban
+4. Tools
 
 ---
 
@@ -462,6 +463,45 @@ Fornisce una opportunità formale per focalizzare l’ispezione e l’adattament
 (quote)
 
 ## <!--fit-->just limit your wip
+
+---
+
+# Kanban
+
+- utilizzo di board a colonne
+- limitare il work in progress
+- visualizzare il workflow
+- misurare il **lead time**
+- fornire un feedback visuale del lavoro
+
+---
+
+## ![Marp bg 100%](./assets/kanban.png)
+
+---
+
+## scrumban
+
+tecnica mista che utilizza le board kanban per organizzare il lavoro dello sprint
+
+---
+
+![bg](./assets/luke-chesser-CxBx_J3yp9g-unsplash.jpg)
+
+## <!--fit--> Tools
+
+---
+
+# Strumenti Web
+
+- [Trello](https://trello.com/])
+- [Jira](https://www.atlassian.com/software/jira)
+- [ClickUp](https://clickup.com/)
+- [Asana](https://asana.com/)
+
+# Miglior strumento
+
+Postit
 
 ---
 
