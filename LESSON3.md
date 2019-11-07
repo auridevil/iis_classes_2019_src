@@ -102,10 +102,6 @@ Kent Beck, Robert Martin, **Martin Fowler**, e altri... Pubblicazione dell'**Man
 
 ---
 
-## Empirismo?
-
----
-
 ![bg](./assets/luke-chesser-CxBx_J3yp9g-unsplash.jpg)
 
 ## <!--fit--> SCRUM
@@ -135,13 +131,19 @@ Kent Beck, Robert Martin, **Martin Fowler**, e altri... Pubblicazione dell'**Man
 
 ---
 
-# 3 pilastri
+## ![Marp bg 100%](./assets/flexibility.png)
 
-# 5 valori
+---
 
-# 3 ruoli
+## 3 pilastri
 
-# 5 eventi
+## 5 valori
+
+## 3 ruoli
+
+## 5 eventi
+
+## 3 artefatti
 
 ---
 
@@ -199,7 +201,7 @@ Il modello serve per ottimizzare:
 
 ---
 
-## Product Owner
+## Product Owner (ruolo)
 
 Il Product Owner ha la responsabilità di massimizzare il valore del prodotto risultante dal lavoro svolto dal Team di Sviluppo.
 
@@ -207,7 +209,26 @@ E' il responsabile reale del prodotto e tutti devono rispettare le sue decisioni
 
 ---
 
-MOVEME product backlog?
+## Product Backlog (artefatto)
+
+Il Product Backlog è un elenco ordinato di tutto ciò che è noto essere necessario al prodotto.
+
+Esso è l’unica fonte di requisiti per le modifiche da apportare al prodotto.
+
+Il Product Owner è il responsabile del Product Backlog, compreso il suo contenuto, la sua disponibilità e l’ordinamento dei suoi elementi.
+
+Il productr backlog non è mai completo ed è documentazione di quello che è stato e quello che sarà il prodotto.
+
+---
+
+L'oridine rappresenta l'importanza e la conoscenza dei requisiti (storie).
+
+Gli elementi ordinati più in alto sono solitamente più chiari e meglio dettagliati rispetto a quelli più in basso.
+
+Il dev-team e il product owner si occupano, duranto lo sprint, di fare attività di **raffinamento**, per migliorare la descrizione dei requisiti e fornirne alcune stime.
+
+---
+
 Il Product Owner è l'unica persona responsabile della gestione del **Product Backlog**:
 
 - chiarezza degli elementi
@@ -218,7 +239,7 @@ Il Product Owner è l'unica persona responsabile della gestione del **Product Ba
 
 ---
 
-## devteam
+## devteam (ruolo)
 
 Professionisti che lavorano **insieme** per consegnare un **incremento** di prodotto **done** potenzialmente rilasciabile alla fine di ogni **sprint**.
 
@@ -241,7 +262,7 @@ Team troppo grossi: troppa complessità rispetto a quella gestibile empiricament
 
 ---
 
-## Scrum Master
+## Scrum Master (ruolo)
 
 \
 Responsabile di promuovere e sostenere SCRUM. Aiuta chiunque a comprendere teoria - pratiche - regole - valori.
@@ -279,11 +300,14 @@ E' un leader al servizio dello scrum team (**servant leadership**).
 - sprint retrospective
 - sprint planning
 
-Gli eventi sono specificamente progettati per consentire trasparenza ed ispezione critiche. Un fallimento nell'includere uno qualsiasi di questi eventi comporta una riduzione della trasparenza ed è un’occasione mancata per praticare l’ispezione e l’adattamento.
+Creano regolarità quindi consistenza
+Minimizzano i meeting non definiti in scrum
+Sono timeboxed e supportano trasparenza e ispezione
+Riducono la complessita grazie alla predittibilità
 
 ---
 
-## Sprint
+## Sprint (evento)
 
 Periodo **time-boxed** di [1-4] settimane durante la quale viene creato un **incremento** di prodotto potenzialmente rilasciabile (**done**).
 
@@ -305,19 +329,139 @@ Durante:
 
 ---
 
-## Daily Scrum
+## ![Marp bg 100%](./assets/sprint1.png)
 
 ---
 
-## Spint Review
+## Daily Scrum (standup meeting) (evento)
+
+max 15 min - solo per il dev team - tutti i giorni
+
+- cosa ho fatto ieri
+- cosa farò oggi
+- ci sono eventuali impedimenti che bloccano il mio lavoro
+
+no discorsi tecnici
+no discussioni
+no risoluzione problemi
+
+lo scrum master presenzia (ma non interviene)
 
 ---
 
-## Sprint Planning
+## Spint Review (evento)
+
+Alla fine di ogni sprint - max 4 ore
+
+Il dev team mostra quello che ha fatto al PO e a eventuali stakeholder (_demo_)
+
+Si parla di quello che è andato **bene** e dei problemi incontrati
+
+Il product owner **accetta** (o meno) gli elementi fatti come incremento
 
 ---
 
-## Sprint Retrospective
+## Sprint Planning (evento)
+
+Si pianifica il lavoro da eseguire nello sprint che sta per iniziare, max 8 ore.
+
+- definizione dello **sprint goal**
+- decisione dell'incremento da portare al prodotto durante lo sprint
+
+Si prendono gli elementi in testa al **product backlog** e si mettono nello **sprint backlog**. Il devteam è l'**unico** che può decidere quanti elementi prendere.
+
+---
+
+## ![Marp bg 100%](./assets/sprintbacklog.png)
+
+---
+
+## Sprint Backlog (artefatto)
+
+Insieme degli elementi del Product Backlog selezionati per lo Sprint.
+
+Previsione fatta dal Team di Sviluppo riguardo a quale funzionalità sarà presente nel prossimo **Incremento**, e riguardo al lavoro necessario per consegnare tale funzionalità in un Incremento **done**.
+
+Aggiornato durante lo sprint per meglio raggiungere lo sprint goal.
+
+Immagine in tempo reale del lavoro che il Team di Sviluppo prevede di compiere durante lo Sprint
+
+**di esclusiva appartenenza del Team di Sviluppo**
+
+---
+
+## Incremento (artefatto)
+
+$$ I = I(n) + I(n-1) $$
+
+Somma di tutti gli elementi del product backlog completati duranto uno sprint e del valore degli incrementi degli sprint precedenti.
+
+Il nuovo incremento deve risultare **done** per essere considerato tale.
+
+E' un passo verso la visione/obiettivo e ogni incremento deve essere ispezionabile.
+
+Deve essere _potenzialmente rilasciabile_.
+
+---
+
+## Definition of Done (DoD)
+
+Tutti devono capire quando un elemento del backlog è **done**.
+Dod è un documento, condiviso e pragmatico che sancisce cosa si intende per **done**.
+
+La DoD guida lo scrum team nella fase di sprint planning, e può cambiare solo alla fine di uno sprint.
+
+La propone l'organizzazione ma gli scrum team possono approfondirla.
+
+---
+
+## Sprint Retrospective (evento)
+
+E' un'occasione per lo scrum team per ispezionare se stesso e creare un piano di miglioramento per il prossimo sprint. max 3h
+
+- ispezione ultimo sprint: persone, relazioni, processi, strumenti
+- identificare gli elementi che sono andati bene e possibili miglioramenti
+- creare un piao di miglioramenti per il team (action points)
+
+Fornisce una opportunità formale per focalizzare l’ispezione e l’adattamento
+
+---
+
+### Sprint Planning Meeting
+
+- sprint review
+- chiusura dello sprint
+- sprint retrospective
+- sprint planning
+- avvio dello sprint
+
+---
+
+### Approfondimenti
+
+- [scrum guide](https://www.scrumguides.org/docs/scrumguide/v2017/2017-Scrum-Guide-Italian.pdf)
+
+- Henrik Kniberg - Scrum and XP from the Trenches - 2nd Edition
+- [scrum.org](https://www.scrum.org/)
+- [scrum alliance](https://www.scrumalliance.org/)
+
+- [heart of agile](https://heartofagile.com/)
+
+---
+
+![bg](./assets/luke-chesser-CxBx_J3yp9g-unsplash.jpg)
+
+## <!--fit--> Kanban
+
+---
+
+![bg](./assets/luke-chesser-CxBx_J3yp9g-unsplash.jpg)
+\
+\
+\
+(quote)
+
+## <!--fit-->just limit your wip
 
 ---
 
