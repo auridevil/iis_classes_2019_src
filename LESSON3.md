@@ -501,7 +501,15 @@ tecnica mista che utilizza le board kanban per organizzare il lavoro dello sprin
 
 # Miglior strumento
 
-Postit
+Postit e lavagna
+
+---
+
+![bg](./assets/luke-chesser-CxBx_J3yp9g-unsplash.jpg)
+
+# <!--fit-->SCRUM PER STUDENTI
+
+# <!--fit-->https://github.com/auridevil/scrumlite-for-student
 
 ---
 
@@ -514,6 +522,8 @@ Postit
 ![bg](https://freenaturestock.s3.amazonaws.com/1533.jpg)
 
 ### Created by Aureliano Bergese
+
+aureliano.bergese@gmail.com
 
 https://github.com/auridevil/
 https://twitter.com/elmozzo

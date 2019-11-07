@@ -694,6 +694,8 @@ Workflow legato all'open source, figlio del github flow. Necessario quando non s
 
 ### Created by Aureliano Bergese
 
+aureliano.bergese@gmail.com
+
 https://github.com/auridevil/
 https://twitter.com/elmozzo
 https://www.instagram.com/elmozzo_buendia/

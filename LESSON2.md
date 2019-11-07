@@ -556,6 +556,8 @@ Insieme di pratiche che combinano lo sviluppo software con le IT operations.
 
 ### Created by Aureliano Bergese
 
+aureliano.bergese@gmail.com
+
 https://github.com/auridevil/
 https://twitter.com/elmozzo
 https://www.instagram.com/elmozzo_buendia/
